@@ -1,0 +1,19 @@
+{
+  "name": "sass-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "sass": "sass src/scss/style.scss public/assets/css/style.css --watch"
+  },
+  "lite-server": {
+    "server": {
+      "baseDir": "public"
+    }
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "sass": "^1.89.2"
+  }
+}
